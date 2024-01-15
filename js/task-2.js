@@ -25,7 +25,7 @@ const images = [
   },
 ];
 
-const gallary = document.querySelector('.gallery');
+const gallery = document.querySelector('.gallery');
 
 const imagesList = images
   .map(
@@ -37,4 +37,4 @@ const imagesList = images
   )
   .join('');
 
-gallary.insertAdjacentHTML('beforeend', imagesList);
+gallery.insertAdjacentHTML('beforeend', imagesList);
